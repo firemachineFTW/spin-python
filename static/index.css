@@ -182,7 +182,7 @@ header {
     position: absolute;
     left: 10%;
     top: 30%;
-    width: 500px;
+    width: 600px;
     max-width: 80%;
     z-index: 10;
 }
@@ -193,7 +193,7 @@ header {
 }
 
 .slider .list .content h2 {
-    font-size: 90px;
+    font-size: 70px;
     margin: 0;
 }
 
@@ -225,6 +225,7 @@ header {
 }
 
 .slider .list .item.active p:nth-child(3) {
+    margin-top: 20px;
     animation-duration: 1.3s;
 }
 
@@ -257,7 +258,7 @@ header {
     bottom: 50px;
     z-index: 13;
     display: flex;
-    gap: 10px;
+    gap: 100px;
     width: 100%;
     height: 250px;
     padding: 0 50px;
@@ -271,8 +272,8 @@ header {
 }
 
 .thumbnail .item {
-    width: 220px;
-    height: 220px;
+    width: 100px;
+    height: 100px;
     filter: brightness(.5);
     transition: .5s;
     flex-shrink: 0;
@@ -280,8 +281,8 @@ header {
 }
 
 .thumbnail .item img {
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 150%;
     object-fit: cover;
     border-radius: 10px;
 }
