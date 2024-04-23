@@ -201,6 +201,8 @@ header {
 .slider .list .content h2 {
     font-size: 70px;
     margin: 0;
+    text-align: center;
+    margin-top: 80px;
 }
 
 .slider .list .item.active {
@@ -308,11 +310,12 @@ header {
     }
 
     .slider .list .item .content h2 {
-        font-size: 35px;
+        font-size: 30px;
         padding-top: 10px;
         padding-bottom: 15px;
         text-align: center;
-        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 10px;
     }
 
     .slider .list .item .content p:nth-child(1){
