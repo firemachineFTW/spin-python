@@ -205,15 +205,36 @@ header {
 .section{
     position: relative;
     display: flex;
-    justify-content: center;
+    width: auto;
+    height: 100%;
     background-color: darkseagreen;
+    justify-content: center;
+}
+
+.head{
+    position: absolute;
+    background-color: #5d5d7e;
+    margin-bottom: 40px;
+    margin: 20px 20px 40px 20px;
+    padding: 60px;
+    
 }
 
 .section .services{
     position: relative;
-    margin: 20px;
+    display: flex;
     padding: 20px;
-
+    width: auto;
+    height: auto;
     background-color: #5d5d7e;
+    margin-top: 20%;
+    font-size: 40px;
     justify-content: center;
+}
+
+.content{
+    position: relative;
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
